@@ -1,6 +1,10 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <systems.h>
+#include <stm32f4xx.h>
+#include <stm32f4xx_rcc.h>
+#include <stm32f4xx_gpio.h>
+
 
 RCC_ClocksTypeDef RCC_Clocks;
 
